@@ -38,7 +38,7 @@
         }
 
         function App() {
-            const [inputText, setInputText] = useState('울곽 1-1 정보 시험을 대비하기 위해 AI로 만든 변환기 (틀린 값이 나올 수도 있음...)');
+            const [inputText, setInputText] = useState('인코딩하고 싶은 문장을 입력하세요');
             
             const encodingResult = useMemo(() => {
                 if (!inputText || inputText.length === 0) return null;
@@ -124,7 +124,7 @@
                             </div>
                             <div>
                                 <h1 className="text-3xl font-bold text-slate-900">허프만 인코딩기</h1>
-                                <p className="text-slate-500 mt-1">입력된 텍스트의 문자 빈도를 분석하여 최적의 이진 코드로 압축합니다.</p>
+                                <p className="text-slate-500 mt-1">10100010100101100101010101001001101011101100011011011011101011110111000011000111001010011011100111101000111010111011011011101111000111001011110101110111001101111100111101111110011111110000001000010001001000110010001001010011010001000100000111</p>
                             </div>
                         </header>
 
